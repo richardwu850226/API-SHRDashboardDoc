@@ -54,7 +54,7 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| title | 資訊標題 |
+| differ | 差異比例 |
 | endDate | 考勤結束日期 |
 | periodYM | 本期年月 |
 | lastPeriodYM | 上期年月 |
@@ -70,21 +70,21 @@ Here is a JSON representation of request.
    },
    "responseBody":{
       "quitRate":{
-         "title":"總離職率 提升0%",
+         "differ": 0.0,
          "periodYM":"202212",
          "lastPeriodYM":"202206",
          "period":0.0,
          "lastPeriod":0.0
       },
       "weekQuitRate":{
-         "title":"七日內總離職率 提升0%",
+         "differ": 0.0,
          "periodYM":"202212",
          "lastPeriodYM":"202206",
          "period":0.0,
          "lastPeriod":0.0
       },
       "passRate":{
-         "title":"總通過率 提升0%",
+         "differ": 0.0,
          "periodYM":"202212",
          "lastPeriodYM":"202206",
          "period":0.0,
