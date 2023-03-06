@@ -3,7 +3,7 @@
 
 ### HTTP Request
 ```
-http://59.124.100.151:8090/servlet/apiM/dashboard/V1/interfaces/AssessAnalysis/AssessAvgList
+http://59.124.100.151:8090/servlet/apiM/dashboard/V1/interfaces/RecruitPositionResult/InterviewAnalysisChart
 ```
 
 ### HTTP Request Mehod
