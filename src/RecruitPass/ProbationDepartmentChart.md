@@ -24,8 +24,8 @@ Here is a JSON representation of request.
   "requestHeader": {
   },
   "requestBody": {
-    "companyId":["TW"]
-    ,"depNumber":[17]
+    "companyId":["1"]
+    ,"depNumber":[16]
     ,"depType": "8"
     ,"yymm": "202212"
     ,"lastYymm": "202206"
