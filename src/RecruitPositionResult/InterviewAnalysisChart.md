@@ -56,10 +56,10 @@ Here is a JSON representation of request.
 |:----------|:-------------|
 | period | 本期資訊 |
 | lastPeriod | 上期資訊 |
-| position | 中文職稱 |
-| needPeople | 需求人數 |
-| checkIn | 報到人數 |
-| checkInRate | 報到率 |
+| periodYM | 年月 |
+| series | 資料 |
+| data | 數值 |
+| xaxis | x軸 |
 
 ### HTTP Response when Successful
 ```json
@@ -69,100 +69,46 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "period":[
-         {
-            "position":"外場-正職人員",
-            "needPeople":0,
-            "checkIn":1,
-            "checkInRate":0
-         },
-         {
-            "position":"正職",
-            "needPeople":3,
-            "checkIn":0,
-            "checkInRate":0
-         },
-         {
-            "position":"兼職",
-            "needPeople":1,
-            "checkIn":0,
-            "checkInRate":0
-         },
-         {
-            "position":"兼職一級",
-            "needPeople":2,
-            "checkIn":0,
-            "checkInRate":0
-         },
-         {
-            "position":"兼職二級",
-            "needPeople":1,
-            "checkIn":0,
-            "checkInRate":0
-         },
-         {
-            "position":"資深正職",
-            "needPeople":1,
-            "checkIn":0,
-            "checkInRate":0
-         },
-         {
-            "position":"實習領班",
-            "needPeople":2,
-            "checkIn":0,
-            "checkInRate":0
-         },
-         {
-            "position":"領班",
-            "needPeople":1,
-            "checkIn":0,
-            "checkInRate":0
-         },
-         {
-            "position":"儲備幹部",
-            "needPeople":1,
-            "checkIn":0,
-            "checkInRate":0
+      "period":{
+         "periodYM":"202112",
+         "series":[
+            {
+               "data":[
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+               ]
+            }
+         ]
+      },
+      "lastPeriod":{
+         "periodYM":"202111",
+         "series":[
+            {
+               "data":[
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+               ]
+            }
+         ],
+         "xaxis":{
+            "data":[
+               "總履歷筆數",
+               "總邀約人數",
+               "總面試人數",
+               "總錄取人數",
+               "總實際報到人數",
+               "總離職人數"
+            ]
          }
-      ],
-      "lastPeriod":[
-         {
-            "position":"外場-正職人員",
-            "needPeople":0,
-            "checkIn":1,
-            "checkInRate":0
-         },
-         {
-            "position":"正職",
-            "needPeople":2,
-            "checkIn":0,
-            "checkInRate":0
-         },
-         {
-            "position":"兼職一級",
-            "needPeople":4,
-            "checkIn":0,
-            "checkInRate":0
-         },
-         {
-            "position":"副店主管",
-            "needPeople":1,
-            "checkIn":0,
-            "checkInRate":0
-         },
-         {
-            "position":"實習領班",
-            "needPeople":2,
-            "checkIn":0,
-            "checkInRate":0
-         },
-         {
-            "position":"儲備幹部",
-            "needPeople":2,
-            "checkIn":0,
-            "checkInRate":0
-         }
-      ]
+      }
    }
 }
 ```
