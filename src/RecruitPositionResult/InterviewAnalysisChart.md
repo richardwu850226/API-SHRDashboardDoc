@@ -48,8 +48,8 @@ Here is a JSON representation of request.
 | companyId | 1 | Array(String) | 公司代號 | N | n/a |
 | depNumber | [] | Array(Integer) | 部門代碼 | N | n/a |
 | depType | 8 | Integer | 統計階層 | Y | n/a |
-| yymm | 2022 | String | 本期年月 | Y | YYYYMM |
-| lastYymm | 2022 | String | 上期年月 | Y | YYYYMM |
+| yymm | 202112 | String | 本期年月 | Y | YYYYMM |
+| lastYymm | 202111 | String | 上期年月 | Y | YYYYMM |
 
 ### requestBody FieldName
 | FieldName | Description |
