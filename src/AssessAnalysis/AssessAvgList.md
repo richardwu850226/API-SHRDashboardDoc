@@ -54,8 +54,12 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| title | 資訊標題 |
-| value | 欄位數值 |
+| totlePeople | 總人數資料 |
+| assessAvg | 考核平均分數資料 |
+| ageAvg | 年資資料 |
+| title | 總人數 |
+| boyList | 男生人數 |
+| girlList | 女生人數 |
 
 ### HTTP Response when Successful
 ```json
