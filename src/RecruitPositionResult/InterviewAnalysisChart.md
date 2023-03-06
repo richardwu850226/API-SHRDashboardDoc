@@ -74,12 +74,12 @@ Here is a JSON representation of request.
          "series":[
             {
                "data":[
+                  6,
+                  6,
                   0,
                   0,
-                  0,
-                  0,
-                  0,
-                  0
+                  1,
+                  1
                ]
             }
          ]
@@ -89,12 +89,12 @@ Here is a JSON representation of request.
          "series":[
             {
                "data":[
+                  9,
+                  9,
                   0,
                   0,
-                  0,
-                  0,
-                  0,
-                  0
+                  1,
+                  1
                ]
             }
          ],
