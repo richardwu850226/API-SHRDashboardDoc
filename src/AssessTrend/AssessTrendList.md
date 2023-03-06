@@ -48,7 +48,6 @@ Here is a JSON representation of request.
 | companyId | 1 | Array(String) | 公司代號 | N | n/a |
 | depNumber | 4 | Array(Integer) | 部門代碼 | N | n/a |
 | depType | 7 | String| 統計階層 | Y | n/a |
-| depNumber | 17 | Array(Integer) | 部門代碼 | Y | n/a |
 | yy | 2022 | String | 本期月份 | Y | YYYYmm |
 | lastYy | 2021 | String | 上期月份 | Y | YYYYmm |
 
@@ -57,6 +56,16 @@ Here is a JSON representation of request.
 |:----------|:-------------|
 | data | 欄位資料 |
 | name | 欄位名稱 |
+| title | 標題 |
+| lastScore | 上期分數 |
+| score | 這期分數 |
+| lastYy | 上年度 |
+| yy | 今年度 |
+| allGrowRate | 成長績效比率 |
+| periodYM | 期數月份 |
+| periodYM | 期數月份 |
+| periodYM | 期數月份 |
+| periodYM | 期數月份 |
 | periodYM | 期數月份 |
 
 ### HTTP Response when Successful
@@ -142,14 +151,6 @@ Here is a JSON representation of request.
             "score":0.0
          }
       ],
-      "label":[
-         "",
-         "姓名",
-         "部門名稱",
-         "到職日期",
-         "年資",
-         "考核等級"
-      ]
    }
 }
 ```
