@@ -24,8 +24,8 @@ Here is a JSON representation of request.
   "requestHeader": {
   },
   "requestBody": {
-    "companyId":["TW"]
-    ,"depNumber":[17]
+    "companyId":["1"]
+    ,"depNumber":[16]
     ,"depType": "8"
     ,"yymm": "202212"
     ,"lastYymm": "202206"
@@ -44,10 +44,9 @@ Here is a JSON representation of request.
 ### requestBody Properties
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
-| companyId | TW | Array(String) | 公司代號 | N | n/a |
-| depNumber | 17 | Array(Integer) | 部門代碼 | N | n/a |
+| companyId | 1 | Array(String) | 公司代號 | N | n/a |
+| depNumber | 16 | Array(Integer) | 部門代碼 | N | n/a |
 | depType | 8 | String| 統計階層 | Y | n/a |
-| depNumber | 17 | Array(Integer) | 部門代碼 | Y | n/a |
 | yymm | 202212 | Array(Integer) | 本期月份 | Y | YYYYmm |
 | lastYymm | 202206 | String | 上期月份 | Y | YYYYmm |
 
@@ -70,16 +69,20 @@ Here is a JSON representation of request.
    "responseBody":{
       "label":[
          {
+            "labelName":"",
+            "labelKey":"photo"
+         },
+         {
             "labelName":"姓名",
             "labelKey":"empFullName"
          },
          {
-            "labelName":"狀態",
-            "labelKey":"empStatus"
-         },
-         {
             "labelName":"面試人員",
             "labelKey":"interviewer"
+         },
+         {
+            "labelName":"狀態",
+            "labelKey":"empStatus"
          }
       ],
       "period":[
