@@ -62,11 +62,6 @@ Here is a JSON representation of request.
 | lastYy | 上年度 |
 | yy | 今年度 |
 | allGrowRate | 成長績效比率 |
-| periodYM | 期數月份 |
-| periodYM | 期數月份 |
-| periodYM | 期數月份 |
-| periodYM | 期數月份 |
-| periodYM | 期數月份 |
 
 ### HTTP Response when Successful
 ```json
